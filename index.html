@@ -68,16 +68,16 @@
     document.getElementById('loginForm').addEventListener('submit', function(event) {
         event.preventDefault(); 
 
-        const email = document.getElementById('emailInput').value;
+        // Mengubah input menjadi huruf kecil penuh semasa semakan (lebih selamat)
+        const email = document.getElementById('emailInput').value.toLowerCase().trim();
         const password = document.getElementById('passwordInput').value;
         const errorAlert = document.getElementById('errorAlert');
 
-        
-        const correctEmail = "Nurul@student.edu.my";
+        // AKAUN TETAP
+        const correctEmail = "nurul@student.edu.my";
         const correctPassword = "password123";
 
         if (email === correctEmail && password === correctPassword) {
-            
             sessionStorage.setItem("loggedInUser", "Nurul");
             errorAlert.classList.add('d-none');
             window.location.href = "dashboard.html"; 
