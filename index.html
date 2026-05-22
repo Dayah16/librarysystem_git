@@ -68,12 +68,12 @@
     document.getElementById('loginForm').addEventListener('submit', function(event) {
         event.preventDefault(); 
 
-        // Mengubah input menjadi huruf kecil penuh semasa semakan (lebih selamat)
-        const email = document.getElementById('emailInput').value.toLowerCase().trim();
+        
+        const email = document.getElementById('emailInput').value.trim();
         const password = document.getElementById('passwordInput').value;
         const errorAlert = document.getElementById('errorAlert');
 
-        // AKAUN TETAP
+        
         const correctEmail = "nurul@student.edu.my";
         const correctPassword = "password123";
 
