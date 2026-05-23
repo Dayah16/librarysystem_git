@@ -156,20 +156,22 @@
         const libraryChart = new Chart(ctx, {
             type: 'bar', 
             data: {
-                labels: ['Computer Science', 'Literature', 'Social Science', 'Technology', 'History'],
+                labels: ['Computer Science', 'Literature', 'Social Science', 'Technology', 'History', 'Law', 'Finance', 'Media Studies'],
                 datasets: [{
                     label: 'Number of loans',
-                    data: [120, 90, 45, 150, 70],
+                    data: [120, 90, 45, 150, 70, 160, 100, 65],
                     backgroundColor: [
                         'rgba(235, 113, 235, 0.7)', 
                         'rgba(232, 189, 42, 0.7)',  
                         'rgba(232, 42, 128, 0.7)',  
                         'rgba(128, 237, 185, 0.7)', 
-                        'rgba(237, 125, 109, 0.7)'   
+                        'rgba(237, 125, 109, 0.7)',  
+                        'rgba(109, 224, 237, 0.7)', 
+                        'rgba(224, 237, 109, 0.7)',
+                        'rgba(237, 109, 141, 0.7)'
                     ],
                     borderColor: [
-                        '#EB71EB', '#E8BD2A', '#E82A80', '#80EDB9', '#ED7D6D'
-                    ],
+                        '#EB71EB', '#E8BD2A', '#E82A80', '#80EDB9', '#ED7D6D', '#6DE0ED', '#E0ED6D', '#ED6D8D' ],
                     borderWidth: 1
                 }]
             },
