@@ -1,12 +1,12 @@
 # Library Management System
 
 
-## 📝 Project Description
+## Project Description
 E-Library Management System is a responsive web application developed for IMS566 Advanced Web Design Assignment. The system helps users manage book records and member information through a clean and user-friendly interface.
 
 ---
 
-## ✨ Features Included
+## Features Included
 This prototype system comes equipped with several core features:
 * **Secured Authentication Layout:** A responsive login page featuring strict credential validation.
 * **Interactive Dashboard:** A clean admin panel layout integrated with live data visualization charts for book borrowing statistics.
@@ -16,7 +16,7 @@ This prototype system comes equipped with several core features:
 
 ---
 
-## 🔐 Instructions to Test Login
+## Instructions to Test Login
 
 * **Email:** `nurul@student.edu.my` 
 * **Password:** `password123`
@@ -30,7 +30,7 @@ This prototype system comes equipped with several core features:
 
 ---
 
-## 🛠️ Frameworks & Libraries Used
+## Frameworks & Libraries Used
 This project integrates modern front-end libraries and tools to ensure optimal user experience:
 1. **Bootstrap v5.3.3:** Used as the primary CSS framework for layout grids, card components, tables, and responsive utilities.
 2. **Bootstrap Icons v1.13.1:** High-quality icon library utilized for navigational sidebars and interactive buttons.
